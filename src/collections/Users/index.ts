@@ -21,6 +21,16 @@ export const Users: CollectionConfig = {
       name: 'name',
       type: 'text',
     },
+    {
+      name: 'address',
+      type: 'group',
+      fields: [
+        { name: 'street', type: 'text' },
+        { name: 'city', type: 'text' },
+        { name: 'zip', type: 'text' },
+        { name: 'country', type: 'text' },
+      ],
+    },
   ],
   timestamps: true,
 }
