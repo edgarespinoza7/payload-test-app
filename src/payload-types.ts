@@ -756,6 +756,7 @@ export interface Product {
   price: number;
   images: number | Media;
   stock?: number | null;
+  category?: (number | null) | Category;
   updatedAt: string;
   createdAt: string;
 }
@@ -1363,6 +1364,7 @@ export interface ProductsSelect<T extends boolean = true> {
   price?: T;
   images?: T;
   stock?: T;
+  category?: T;
   updatedAt?: T;
   createdAt?: T;
 }

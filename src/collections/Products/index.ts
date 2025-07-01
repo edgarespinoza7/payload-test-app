@@ -42,10 +42,10 @@ export const Products: CollectionConfig = {
       type: 'number',
       defaultValue: 0,
     },
-    // {
-    //   name: 'category',
-    //   type: 'relationship',
-    //   relationTo: 'categories',
-    // },
+    {
+      name: 'category',
+      type: 'relationship',
+      relationTo: 'categories',
+    },
   ],
 }
