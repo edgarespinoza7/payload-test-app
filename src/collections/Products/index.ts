@@ -37,11 +37,11 @@ export const Products: CollectionConfig = {
       relationTo: 'media',
       required: true,
     },
-    // {
-    //   name: 'stock',
-    //   type: 'number',
-    //   defaultValue: 0,
-    // },
+    {
+      name: 'stock',
+      type: 'number',
+      defaultValue: 0,
+    },
     // {
     //   name: 'category',
     //   type: 'relationship',
